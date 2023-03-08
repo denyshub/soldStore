@@ -1,0 +1,589 @@
+.fonth1 {
+  font-weight: lighter;
+}
+
+.center {
+  margin: auto;
+}
+
+.photo_size {
+  width: 22em;
+  height: 28em;
+}
+
+.padImage {
+  padding-top: 100px;
+}
+
+img {
+  border: 5px;
+}
+
+p {
+  font-size: larger;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-family: "Ubuntu";
+}
+
+h2 {
+  padding-right: 35px;
+}
+
+h4 {
+  font-family: "Signika", sans-serif;
+}
+
+h3 {
+  font-family: "Oswald";
+  padding-left: 0px;
+  color: white;
+}
+
+.navStyle {
+  font-family: Ubuntu;
+  color: white;
+  text-decoration: none;
+  font-size: 1.15em;
+}
+
+.button {
+  padding: 5px 25px;
+  color: #8d9eff;
+  border: white solid 0px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.logo {
+  cursor: pointer;
+  height: 70px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  height: 70px;
+  top: 0px;
+  font-size: larger;
+  background-color: #8d9eff;
+  border-radius: 0 0 20px 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 20000;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
+  padding-top: 10px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #c0deff;
+  font-size: 20px;
+  transition: 500ms;
+  font-size-adjust: 20px;
+}
+
+button:hover {
+  background-color: #c0deff;
+}
+
+/*men*/
+
+.navStyle1 {
+  font-family: Ubuntu;
+  color: black;
+  text-decoration: none;
+}
+
+.iconsMen {
+  font-size: 2rem;
+  color: white;
+}
+
+.iconColor {
+  color: white;
+}
+.flexBox1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 50px;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  gap: 7rem;
+}
+
+.searches {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  width: 20%;
+  height: 60px;
+  border-radius: 50px;
+  margin-top: 100px;
+}
+
+* {
+  margin: 0;
+}
+
+.clothes {
+  height: 35ch;
+  margin-top: 0px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+}
+.caption {
+  padding-left: 30px;
+}
+
+.img {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: end;
+  height: 20px;
+  width: 20px;
+  padding-left: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.iconsFlex {
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-bottom: 21px;
+}
+
+.flexBox2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 100px;
+  height: 100%;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  z-index: 1000;
+  gap: 2rem;
+}
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  padding-bottom: 50px;
+}
+.centerTextImage {
+  text-align: center;
+}
+
+.info {
+  padding-top: 10px;
+  display: flex;
+  background-color: white;
+width: 100%;
+font-size: smaller;
+color: white;
+justify-content: space-around;
+font-family: "Fjalla one" sans-serif;
+flex-direction: column;
+color: #8d9eff;
+position: absolute;
+left: 0;
+align-items: end;
+border-radius: 10px;
+box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.container1 {
+  text-align: start;
+}
+
+.socials {
+  padding-right: 10px;
+  font-size: 2rem;
+  color: #8d9eff;
+  background-color: white;
+}
+
+.bodyProfile {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.containerProfile {
+  width: 350px;
+  height: 500px;
+  background-color: #8d9eff;
+
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  position: fixed;
+}
+
+#hidden-btn {
+  display: none;
+}
+.signup {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+label {
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+input {
+  width: 70%;
+  height: 20px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.button1 {
+  width: 50%;
+  height: 40px;
+  color: #fff;
+  background-color: #3e54ac;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+}
+
+button:active {
+  transform: scale(0.8);
+}
+
+.login {
+  height: 460px;
+  width: 100%;
+  background-color: #fff;
+  padding-top: 10px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 60% / 10%;
+  box-shadow: 0 10px 10px #ecf2ff;
+  transform: translateY(-40px);
+  transition: 0.8s ease-in-out;
+}
+
+.login label {
+  color: #3e54ac;
+  transform: scale(0.6);
+}
+
+.login input {
+  background-color: #f5f5f5;
+}
+
+#hidden-btn:checked ~ .login {
+  transform: translateY(-380px);
+}
+
+#hidden-btn:checked ~ .login label {
+  transform: scale(1);
+}
+
+#hidden-btn:checked ~ .signup label {
+  transform: scale(0.6);
+}
+
+.container1 {
+  display: flex;
+
+  margin: 0;
+  padding-top: 10rem;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.likeProduct {
+  color: black;
+  position: relative;
+  float: right;
+}
+a {
+  z-index: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdown {
+  position: relative;
+  margin-top: 100px;
+  width: 25%;
+  height: 60px;
+  background: #fafafa;
+}
+
+.dropdown::before {
+  content: "";
+
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #333;
+  right: 20px;
+  top: 15px;
+  z-index: 10000;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.dropdown.active::before {
+  transform: rotate(-225deg);
+  top: 22px;
+}
+
+.dropdown input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: #fff;
+  outline: none;
+  border: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.dropdown .option {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  overflow: auto;
+  z-index: 10000;
+  display: none;
+  opacity: 0.85;
+}
+
+.dropdown.active .option {
+  display: block;
+}
+
+.dropdown .option div {
+  padding: 12px 20px;
+  cursor: poiner;
+}
+
+.dropdown .option div:hover {
+  color: #fff;
+}
+
+.dropdown .option div ion-icon {
+  position: relative;
+  top: 4px;
+  font-size: 1.2em;
+}
+
+/*/////////////////////////////////////*/
+
+.dropdown1 {
+  position: relative;
+  margin-top: 100px;
+  width: 25%;
+  height: 60px;
+  background: #fafafa;
+}
+
+.dropdown1::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #333;
+  right: 20px;
+  top: 15px;
+  z-index: 10001;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.dropdown1.active1::before {
+  transform: rotate(-225deg);
+  top: 22px;
+}
+
+.dropdown1 input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: #fff;
+  outline: none;
+  border: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.dropdown1 .option1 {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow: auto;
+  z-index: 10001;
+  display: none;
+}
+
+.dropdown1.active1 .option1 {
+  display: block;
+}
+
+.dropdown1 .option1 div {
+  padding: 12px 20px;
+  cursor: poiner;
+}
+
+.dropdown1 .option1 div:hover {
+  background: #8d9eff;
+  color: #fff;
+}
+
+.dropdown1 .option1 div ion-icon {
+  position: relative;
+  top: 4px;
+  font-size: 1.2em;
+}
+
+#liked:hover {
+  color: #8d9eff;
+}
+
+.popular {
+  padding-top: 50px;
+}
+
+#iconsMen:hover {
+  color: #c0deff;
+  font-size: 31px;
+}
+
+.person {
+  font-size: 27px;
+  padding-top: 3px;
+}
+
+#person:hover {
+  font-size: 26px;
+  color: #c0deff;
+}
+
+.imageFrame {
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.buttonsMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.buttonsInDrop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 10px;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #8d9eff;
+  border: none;
+  width: 100px;
+  height: 40px;
+
+  color: #fff;
+}
+
+.iconsInDrop {
+  height: 40px;
+  padding-left: -10px;
+}
+
+body{
+  z-index: 1000;
+
+}
