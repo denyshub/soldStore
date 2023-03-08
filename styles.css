@@ -182,6 +182,15 @@ button:hover {
   padding-bottom: 21px;
 }
 
+
+.iconsFlex1 {
+  display: flex;
+  width: 150px;
+  justify-content: space-evenly;
+  padding-top: 18px;
+  padding-bottom: 21px;
+}
+
 .flexBox2 {
   display: flex;
   flex-direction: row;
@@ -220,7 +229,7 @@ position: absolute;
 left: 0;
 align-items: end;
 border-radius: 10px;
-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+
 
 
 }
@@ -585,8 +594,60 @@ a {
 
 #call{
   font-size: 27px;
+  padding-top: 9px;
 }
 #call:hover{
   font-size: 26.5px;
+}
+
+.search-box{
+ 
+
   color: #c0deff;
+
+  background: white;
+border: 3px solid #8d9eff;
+height: 43px;
+  border-radius: 41px;
+display: flex;
+align-items: center;
+
+
+}
+
+.search-box:hover >  .search-txt{
+  width: 100px;
+
+}
+
+
+.search-btn{
+  display: flex;
+  color: white;
+  width: 45px;
+  background: #8d9eff;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-txt{
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  transition: 0.4s;
+display: flex;
+align-items: center;
+justify-content: center;
+  font-size: 16px;
+  line-height: 45px;
+  width: 0px;
+  
+}
+
+.search{
+  font-size:28px;
 }
