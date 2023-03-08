@@ -583,3 +583,10 @@ a {
   padding-left: -10px;
 }
 
+#call{
+  font-size: 27px;
+}
+#call:hover{
+  font-size: 26.5px;
+  color: #c0deff;
+}
