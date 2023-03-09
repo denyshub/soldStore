@@ -109,9 +109,8 @@
           </div>
         </div>
   
-        <input type="text" placeholder="Search.." class="searches" />
-  
-        <div class="dropdown1 ">
+        <input type="text" placeholder="Search..." class="searches" /> 
+        <div class="dropdown1">
           <input
             type="text"
             class="textBox1"
@@ -120,11 +119,20 @@
           />
           <div class="option1">
   
-            <div onclick1="show('option')"><ion-icon name="bag-outline"></ion-icon>option</div>
-            <div onclick1="show('option')"> <ion-icon name="chatbox-outline"></ion-icon>option</div>
-            <div onclick1="show('option')"><ion-icon name="cloud-outline"></ion-icon>option</div>
-            <div onclick1="show('option')"><ion-icon name="cloud-outline"></ion-icon>option</div>
-        
+            <div class = "buttonsMenu">
+              <button onclick="show1('Price (HIGH - LOW)')" class="buttonsInDrop1"> Price (HIGH - LOW) </button>
+            </div>
+            <div class = "buttonsMenu">
+              <button onclick="show1('Price (LOW - HIGH)')" class="buttonsInDrop1"> Price (LOW - HIGH) </button>
+            </div>
+            <div class = "buttonsMenu">
+              <button  onclick="show1('Popular')"  class="buttonsInDrop1"> Popular</button>
+            </div>
+            <div class = "buttonsMenu">
+              <button  onclick="show1('New')"  class="buttonsInDrop1"> New</button>
+            </div>
+         
+
           </div>
         </div>
   
@@ -204,15 +212,21 @@
       </div>
 
 <script>
-  function show(anything){
-    document.querySelector('.textBox').value= anything;
+  function show1(anything1){
+    document.querySelector('.textBox1').value= anything1;
   }
+  let dropdown1 = document.querySelector('.dropdown1');
+  dropdown1.onclick = function(){
+    dropdown1.classList.toggle('active');
+  }
+</script>
+
+<script>
   let dropdown = document.querySelector('.dropdown');
   dropdown.onclick = function(){
     dropdown.classList.toggle('active');
   }
 </script>
-
 
   </body>
 </html>

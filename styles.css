@@ -447,8 +447,8 @@ a {
   position: relative;
   top: 70px;
   width: 100%;
-  background: #fff;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.137);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
   border-radius: 50px;
   overflow: auto;
   z-index: 10000;
@@ -479,6 +479,7 @@ a {
 
 /*/////////////////////////////////////*/
 
+
 .dropdown1 {
   position: relative;
   margin-top: 100px;
@@ -489,13 +490,14 @@ a {
 
 .dropdown1::before {
   content: "";
+
   position: absolute;
   width: 8px;
   height: 8px;
   border: 2px solid #333;
   right: 20px;
-  top: 15px;
-  z-index: 10001;
+  top: 25px;
+  z-index: 10000;
   width: 8px;
   height: 8px;
   border-top: 2px solid #fff;
@@ -505,7 +507,7 @@ a {
   pointer-events: none;
 }
 
-.dropdown1.active1::before {
+.dropdown1.active::before {
   transform: rotate(-225deg);
   top: 22px;
 }
@@ -531,23 +533,29 @@ a {
   width: 100%;
   background: #fff;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
+  border-radius: 50px;
   overflow: auto;
-  z-index: 10001;
+  z-index: 10000;
+
   display: none;
 }
 
-.dropdown1.active1 .option1 {
+.dropdown1.active .option1 {
   display: block;
+  display: flex;
+  
+  flex-direction: column;
+background-color: rgba(5, 4, 4, 0);
 }
 
 .dropdown1 .option1 div {
   padding: 12px 20px;
   cursor: poiner;
+  transition: 0.8s;
+  background: rgba(0, 0, 0, 0.137);
 }
 
 .dropdown1 .option1 div:hover {
-  background: black;
   color: #fff;
 }
 
@@ -556,6 +564,8 @@ a {
   top: 4px;
   font-size: 1.2em;
 }
+
+
 
 #liked {
   font-size: 3em;
@@ -611,6 +621,21 @@ a {
   background-color: black;
   border: none;
   width: 100px;
+  height: 40px;
+
+  color: #fff;
+}
+
+.buttonsInDrop1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 10px;
+  align-items: center;
+  border-radius: 50px;
+  background-color: black;
+  border: none;
+  width: 100%;
   height: 40px;
 
   color: #fff;
