@@ -135,6 +135,7 @@ button:hover {
   border-radius: 10px;
 }
 
+
 .searches {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
@@ -406,7 +407,7 @@ a {
   margin-top: 100px;
   width: 25%;
   height: 60px;
-  background: #fafafa;
+  background: white;
 }
 
 .dropdown::before {
@@ -448,39 +449,7 @@ a {
   border-radius: 10px;
 }
 
-.dropdown .option {
-  position: relative;
-  top: 70px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.137);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
-  border-radius: 50px;
-  overflow: auto;
-  z-index: 10000;
 
-  display: none;
-  opacity: 0.85;
-}
-
-.dropdown.active .option {
-  display: block;
-}
-
-.dropdown .option div {
-  padding: 12px 20px;
-  cursor: poiner;
-  transition: 0.8s;
-}
-
-.dropdown .option div:hover {
-  color: #fff;
-}
-
-.dropdown .option div ion-icon {
-  position: relative;
-  top: 4px;
-  font-size: 1.2em;
-}
 
 /*/////////////////////////////////////*/
 
@@ -607,17 +576,87 @@ background-color: rgba(5, 4, 4, 0);
 }
 
 .imageFrame {
-  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.142);
+  border: 2.3px solid rgba(0, 0, 0, 0.236);
+}
+.dropdown > .option {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.137);
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  overflow: auto;
+  z-index: 10000;
+  display: none;
+  opacity: 0.85;
+}
+
+.dropdown.active .option {
+  display: block;
+}
+
+.dropdown .option div {
+  padding: 12px 20px;
+  cursor: poiner;
+  transition: 0.8s;
+}
+
+.dropdown .option div:hover {
+  color: #fff;
+}
+
+.dropdown .option div ion-icon {
+  position: relative;
+  top: 4px;
+  font-size: 1.2em;
 }
 
 .buttonsMenu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+display: flex;
+flex-direction: row;
+overflow: hidden; 
+height: 50px;
+align-items: center;
+justify-content: space-around;
+
 }
 
+.buttonsMenu:hover > .buttonsInDrop{
+  height: 10px;
+opacity: 0;
+position: absolute;
+visibility: 0;
+transition: 0.5s;
+}
+
+#iconsColor{
+  color: black;
+}
+
+.buttonsMenu:hover > #hiddenOptions{
+opacity: 1;
+transition: 0.5s;
+visibility: 1
+}
+#hiddenOptions{
+opacity: 0;
+visibility: 0;
+position: absolute;
+  font-size: 20px;
+}
+
+#hoverDrop:hover+#hiddenOptions{
+visibility: visible;
+opacity: 1;
+
+}
 .buttonsInDrop {
   display: flex;
+  transition: 0.5s;
   flex-direction: row;
   justify-content: center;
   padding-left: 10px;
@@ -662,7 +701,7 @@ background-color: rgba(5, 4, 4, 0);
 
 .search-box {
   margin-right: -10px;
-  color: #c0deff;
+  color: white;
   margin-top: 1px;
   border: 3px solid black;
   height: 43px;
@@ -675,7 +714,7 @@ background-color: rgba(5, 4, 4, 0);
   width: 100px;
 }
 .search-box:hover {
-  background: #fff;
+  background: white;
 }
 
 .search-box:hover > .search-btn {
