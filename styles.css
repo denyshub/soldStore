@@ -39,6 +39,7 @@ h4 {
 
 h3 {
   color: black;
+
 }
 
 .navStyle {
@@ -684,7 +685,7 @@ opacity: 1;
   border-radius: 50px;
   background-color: black;
   border: none;
-  width: 100%;
+  width: 80%;
   height: 40px;
 
   color: #fff;
@@ -785,39 +786,49 @@ padding-top: 30px;
 width: 60%;
 padding-left: 40px;
 border-radius: 20px;
-height: 500px;
+height: 800px;
 border: 2px solid black;
 }
 
 
 .something{
   width: 30%;
+  border-radius: 20px;
   border: 2px solid black;
-  height: 500px;
+  height: 800px;
 }
 
+
+.something1{
+  width: 30%;
+  border: 2px solid black;
+  height: 800px;
+}
 .placer{
   padding-top: 100px;
-  justify-content: space-evenly;
   display: flex;
-  flex-direction: row;
   gap: 2em;
+  justify-content: center;
+  flex-direction: row;
+
 }
 
 .placer1{
-  padding-top:40px;
-  justify-content: space-evenly;
+padding-top: 50px;
   display: flex;
-  flex-direction: row;
   gap: 2em;
+  justify-content: center;
+  flex-direction: row;
+
 }
 
 .horizont{
   border: 2px solid black;
   height: 200px;
   margin-top: 40px;
-width: 94%;
-margin-left: 3%;
+width: 95%;
+border-radius: 20px;
+margin-left: 2.7%;
 }
 
 .imgProductPage{
@@ -833,3 +844,81 @@ margin-left: 3%;
 }
 
 /*///////////////////////////////////////////////*/
+
+.nameCenter{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.iconsPriceSize{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding-top: 50px;
+  gap: 0.7em;
+}
+
+.bordPriceSize{
+  display: flex;
+  align-items: center;
+  width: 47%;
+ height: 70px;
+  justify-content: center;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+.sixItems{
+  display: flex;
+  flex-direction: row;
+  padding-top:40px;
+
+gap: 0.7em;
+
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.borderSix{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 70px;
+  border-radius: 50px;
+  
+  border: 2px solid black;
+}
+
+table {
+  width: 97%;
+  margin-left: 1.5%;
+  margin-top: 10px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.data{
+  border: 1px solid black; 
+  display: flex;
+
+}
+th, td {
+  padding: 1em;
+  background: white;
+}
+
+
+
+.tableBorder{
+  border: 1px solid black; 
+}
+
+
+#filter{
+  padding-left: 10px;
+}
