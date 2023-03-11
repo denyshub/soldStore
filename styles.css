@@ -581,12 +581,12 @@ background-color: rgba(5, 4, 4, 0);
   box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.142);
   border: 2.3px solid rgba(0, 0, 0, 0.236);
 }
-.dropdown > .option {
+.dropdown .option {
   position: relative;
   top: 70px;
+  overflow-y: hidden;
   width: 100%;
   background: rgba(0, 0, 0, 0.137);
-
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
   border-radius: 50px;
   overflow: auto;
@@ -597,6 +597,7 @@ background-color: rgba(5, 4, 4, 0);
 
 .dropdown.active .option {
   display: block;
+  overflow-y: hidden;
 }
 
 .dropdown .option div {
@@ -607,18 +608,20 @@ background-color: rgba(5, 4, 4, 0);
 
 .dropdown .option div:hover {
   color: #fff;
+  
 }
 
 .dropdown .option div ion-icon {
   position: relative;
   top: 4px;
+  
   font-size: 1.2em;
 }
 
 .buttonsMenu {
 display: flex;
-flex-direction: row;
-overflow: hidden; 
+flex-direction: row; 
+overflow-y: hidden;
 height: 50px;
 align-items: center;
 justify-content: space-around;
@@ -626,11 +629,12 @@ justify-content: space-around;
 }
 
 .buttonsMenu:hover > .buttonsInDrop{
-  height: 10px;
 opacity: 0;
+width: 80%;
 position: absolute;
 visibility: 0;
-transition: 0.5s;
+transition: 1s;
+
 }
 
 #iconsColor{
@@ -639,7 +643,7 @@ transition: 0.5s;
 
 .buttonsMenu:hover > #hiddenOptions{
 opacity: 1;
-transition: 0.5s;
+transition: 1s;
 visibility: 1
 }
 #hiddenOptions{
@@ -647,6 +651,7 @@ opacity: 0;
 visibility: 0;
 position: absolute;
   font-size: 20px;
+  
 }
 
 #hoverDrop:hover+#hiddenOptions{
@@ -656,15 +661,15 @@ opacity: 1;
 }
 .buttonsInDrop {
   display: flex;
-  transition: 0.5s;
+  transition: 1s;
   flex-direction: row;
   justify-content: center;
-  padding-left: 10px;
   align-items: center;
   border-radius: 50px;
-  background-color: black;
+  overflow-y: hidden; 
+   background-color: black;
   border: none;
-  width: 100px;
+  width: 80%;
   height: 40px;
 
   color: #fff;
