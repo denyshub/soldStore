@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-  padding-right: 35px;
+  padding-right: 5px;
 }
 
 h4 {
@@ -61,19 +61,20 @@ h3 {
 .logo {
   cursor: pointer;
   height: 70px;
+  padding-left: 70px;
   color: gray;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
-  padding: 30px 10%;
   height: 70px;
   top: 0px;
   font-size: larger;
   background-color: black;
-
+  align-items: center;
+justify-content: space-between;
   position: fixed;
   width: 100%;
   z-index: 20000;
@@ -100,6 +101,16 @@ header {
   font-size-adjust: 20px;
 }
 
+.sunPosition{
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 70px;
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+
+}
 button:hover {
   background-color: gray;
 }
@@ -129,6 +140,7 @@ button:hover {
   flex-flow: row wrap;
   gap: 7rem;
   padding-bottom: 50px;
+  margin-right: 20px;
 }
 
 .textBox{
@@ -174,6 +186,15 @@ button:hover {
   width: 20px;
   padding-left: 10px;
 }
+.mainContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  background-color: rgb(255, 255, 255);
+}
+
 
 .container {
   display: flex;
@@ -181,6 +202,8 @@ button:hover {
   justify-content: center;
   align-items: center;
   margin-inline: auto;
+  background-color: #ffffff;
+
 }
 
 .iconsFlex {
@@ -193,10 +216,12 @@ button:hover {
 
 .iconsFlex1 {
   display: flex;
-  width: 150px;
+  width: 200px;
   justify-content: space-evenly;
   padding-top: 18px;
+  gap: 0.3em;
   padding-bottom: 21px;
+  padding-right: 110px;
 }
 
 .flexBox2 {
@@ -211,12 +236,14 @@ button:hover {
   gap: 2rem;
 }
 
-.aboutUs {
+.container_aboutUs {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 1rem;
   padding-bottom: 50px;
+  color:rgb(0, 0, 0);
+  background-color: white;
 }
 .centerTextImage {
   text-align: center;
@@ -249,7 +276,11 @@ body {
   text-align: start;
 }
 
-.socials {
+.socials{
+  padding-bottom: 10px;
+}
+
+#socials {
   padding-right: 10px;
   font-size: 2rem;
   color: black;
@@ -786,7 +817,7 @@ padding-top: 30px;
 width: 60%;
 padding-left: 40px;
 border-radius: 20px;
-height: 800px;
+height: 500px;
 border: 2px solid black;
 }
 
@@ -795,7 +826,7 @@ border: 2px solid black;
   width: 30%;
   border-radius: 20px;
   border: 2px solid black;
-  height: 800px;
+  height: 500px;
 }
 
 
@@ -922,3 +953,11 @@ th, td {
 #filter{
   padding-left: 10px;
 }
+
+svg{
+  cursor:pointer,
+  
+  
+  }
+  
+  
