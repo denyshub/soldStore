@@ -1,0 +1,949 @@
+.fonth1 {
+  font-weight: lighter;
+}
+
+.center {
+  margin: auto;
+}
+
+.photo_size {
+  width: 22em;
+  height: 28em;
+}
+
+.padImage {
+  padding-top: 100px;
+}
+
+img {
+  border: 5px;
+}
+
+p {
+  font-size: larger;
+  font-family: "Raleway", sans-serif;
+}
+
+
+
+h4 {
+  font-family: "Signika", sans-serif;
+  font-weight: lighter;
+}
+
+h3 {
+  color: black;
+  font-family: 'Fjalla one';
+}
+
+.navStyle {
+  font-family: Ubuntu;
+  color: white;
+  text-decoration: none;
+  font-size: 1.15em;
+}
+
+.button {
+  padding: 5px 25px;
+  color: #8d9eff;
+  border: white solid 0px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.logo {
+  cursor: pointer;
+  height: 70px;
+  padding-left: 70px;
+  color: gray;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+  top: 0px;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 20000;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
+font-size: larger;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: gray;
+  font-size: 20px;
+  transition: 500ms;
+  font-size-adjust: 20px;
+}
+
+.sunPosition {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  height: 70px;
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+}
+button:hover {
+  background-color: gray;
+}
+
+/*men*/
+
+.navStyle1 {
+  font-family: Ubuntu;
+  color: black;
+  text-decoration: none;
+}
+
+.iconsMen {
+  font-size: 3rem;
+  color: white;
+}
+
+.iconColor {
+  color: white;
+}
+.flexBox1 {
+  display: flex;
+  flex-direction: row;
+gap:5em;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  padding-bottom: 50px;
+}
+
+.iconsFlexProfile{
+margin-right: 60px;
+
+}
+
+.flexBox3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+gap: 5rem;
+width: 100%;
+  flex-flow: row wrap;
+}
+.textBox {
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+.searches {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  border: 4px solid black;
+  width: 20%;
+  height: 60px;
+  border-radius: 50px;
+  margin-top: 100px;
+}
+
+.clothes {
+  height: 35ch;
+  margin-top: 0px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+}
+.caption {
+  padding-left: 30px;
+}
+
+.img {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: end;
+  height: 20px;
+  width: 20px;
+  padding-left: 10px;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  background-color: #ffffff;
+}
+
+.iconsFlex {
+  display: flex;
+  width: 80px;
+  justify-content: space-around;
+  padding-top: 18px;
+  padding-bottom: 21px;
+}
+
+.iconsFlexMain {
+  display: flex;
+  width: 200px;
+ align-items: center;
+ height: 70px;
+ gap: 0.7rem;
+  padding-right: 110px;
+}
+
+.flexBox2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 100px;
+  height: 100%;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  z-index: 1000;
+  gap: 2rem;
+}
+
+.aboutUsText{
+  font-size: 20px;
+}
+.container_aboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: larger;
+
+  padding-bottom: 50px;
+  padding: 100px ;
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+.centerTextImage {
+  text-align: center;
+}
+
+.info {
+  padding-top: 10px;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  font-size: smaller;
+  color: white;
+  font-family: Ubuntu;
+ 
+  flex-direction: column;
+  color: black;
+  left: 0;
+  bottom: 0;
+
+  align-items: end;
+  border-radius: 10px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container1 {
+  text-align: start;
+}
+
+.followText{
+  font-size: 25px;
+  padding-right: 14px;
+  color: rgb(162, 160, 160);
+}
+
+#socials {
+  padding-right: 10px;
+  font-size: 2rem;
+  color: rgb(162, 160, 160);
+  background-color: white;
+}
+
+#socials:hover{
+  color: gray;
+}
+
+.bodyProfile {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.containerProfile {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+
+  border-radius: 10px;
+
+  position: fixed;
+}
+
+#hidden-btn {
+  display: none;
+}
+.signup {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+label {
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+input {
+  width: 70%;
+  height: 20px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  outline: none;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.button1 {
+  width: 50%;
+  height: 40px;
+  color: #fff;
+  background-color: black;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+button:active {
+  transform: scale(0.8);
+}
+
+.login {
+  height: 460px;
+  width: 100%;
+  background-color: #fff;
+  padding-top: 10px;
+  display: flex;
+  gap: 15px;
+
+  flex-direction: column;
+  align-items: center;
+  border-radius: 60% / 10%;
+
+  transform: translateY(-40px);
+  transition: 0.8s ease-in-out;
+}
+
+.login label {
+  color: gray;
+  transform: scale(0.6);
+}
+
+#hidden-btn:checked ~ .login {
+  transform: translateY(-380px);
+
+  transition: 0.8s;
+}
+
+#hidden-btn:checked ~ .login label {
+  transform: scale(1);
+  color: black;
+}
+.login button {
+  background-color: white;
+}
+.login input {
+  background-color: white;
+  box-shadow: none;
+  display: none;
+}
+#hidden-btn:checked ~ .login input {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+#hidden-btn:checked ~ .login button {
+  transform: scale(1);
+  background-color: black;
+}
+
+#hidden-btn:checked ~ .signup label {
+  transform: scale(0.6);
+  color: gray;
+}
+
+.container1 {
+  display: flex;
+
+  margin: 0;
+  padding-top: 10rem;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.likeProduct {
+  color: black;
+  position: relative;
+  float: right;
+}
+a {
+  z-index: 1;
+}
+
+.dropdown {
+  position: relative;
+  margin-top: 100px;
+  width: 25%;
+  height: 60px;
+  background: white;
+}
+
+.dropdown::before {
+  content: "";
+
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #333;
+  right: 20px;
+  top: 25px;
+  z-index: 10000;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.dropdown.active::before {
+  transform: rotate(-225deg);
+  top: 22px;
+}
+
+.dropdown input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: #fff;
+  outline: none;
+  border: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+/*/////////////////////////////////////*/
+
+.dropdown1 {
+  position: relative;
+  margin-top: 100px;
+  width: 25%;
+  height: 60px;
+  background: #fafafa;
+}
+
+.dropdown1::before {
+  content: "";
+
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #333;
+  right: 20px;
+  top: 25px;
+  z-index: 10000;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.dropdown1.active::before {
+  transform: rotate(-225deg);
+  top: 22px;
+}
+
+.dropdown1 input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: #fff;
+  outline: none;
+  border: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.dropdown1 .option1 {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  overflow: auto;
+  z-index: 10000;
+
+  display: none;
+}
+
+.dropdown1.active .option1 {
+  display: block;
+  display: flex;
+
+  flex-direction: column;
+  background-color: rgba(5, 4, 4, 0);
+}
+
+.dropdown1 .option1 div {
+  padding: 12px 20px;
+  cursor: poiner;
+  transition: 0.8s;
+  background: rgba(0, 0, 0, 0.137);
+}
+
+.dropdown1 .option1 div:hover {
+  color: #fff;
+}
+
+.dropdown1 .option1 div ion-icon {
+  position: relative;
+  top: 4px;
+  font-size: 1.2em;
+}
+
+#liked {
+  font-size: 3em;
+}
+
+#liked:hover {
+  color: gray;
+}
+
+.popular {
+  padding-top: 50px;
+}
+
+#iconsMen:hover {
+  color: grey;
+  transition: 0.5s;
+}
+
+.person {
+  font-size: 27px;
+  margin-top: 4px;
+}
+
+.person1 {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+#person {
+  padding-top: 4px;
+}
+#person:hover {
+  color: gray;
+  transition: 0.8s;
+}
+
+.imageFrame {
+  border-radius: 10px;
+  margin-top: 100px;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.142);
+  border: 2.3px solid rgba(0, 0, 0, 0.236);
+}
+.dropdown .option {
+  position: relative;
+  top: 70px;
+  overflow-y: hidden;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.137);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  overflow: auto;
+  z-index: 10000;
+  display: none;
+  opacity: 0.85;
+}
+
+.dropdown.active .option {
+  display: block;
+  overflow-y: hidden;
+}
+
+.dropdown .option div {
+  padding: 12px 20px;
+  cursor: poiner;
+  transition: 0.8s;
+}
+
+.dropdown .option div:hover {
+  color: #fff;
+}
+
+.dropdown .option div ion-icon {
+  position: relative;
+  top: 4px;
+
+  font-size: 1.2em;
+}
+
+.buttonsMenu {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttonsMenu:hover > .buttonsInDrop {
+  opacity: 0;
+  width: 80%;
+  position: absolute;
+  visibility: 0;
+  transition: 1s;
+}
+
+#iconsColor {
+  color: black;
+}
+
+.buttonsMenu:hover > #hiddenOptions {
+  opacity: 1;
+  transition: 1s;
+  visibility: 1;
+}
+#hiddenOptions {
+  opacity: 0;
+  visibility: 0;
+  position: absolute;
+  font-size: 20px;
+}
+
+#hoverDrop:hover + #hiddenOptions {
+  visibility: visible;
+  opacity: 1;
+}
+.buttonsInDrop {
+  display: flex;
+  transition: 1s;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  overflow-y: hidden;
+  background-color: black;
+  border: none;
+  width: 80%;
+  height: 40px;
+
+  color: #fff;
+}
+
+.buttonsInDrop1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 10px;
+  align-items: center;
+  border-radius: 50px;
+  background-color: black;
+  border: none;
+  width: 80%;
+  height: 40px;
+
+  color: #fff;
+}
+
+.iconsInDrop {
+  height: 40px;
+  padding-left: -10px;
+}
+
+#call {
+  font-size: 27px;
+  padding-top: 6px;
+}
+#call:hover {
+  transition: 0.8s;
+  color: gray;
+}
+
+.search-box {
+  margin-right: -10px;
+  color: white;
+  margin-top: 1px;
+  border: 3px solid black;
+  height: 43px;
+  border-radius: 41px;
+  display: flex;
+  align-items: center;
+}
+
+.search-box:hover > .search-txt {
+  width: 100px;
+  display: flex;
+
+}
+.search-box:hover {
+  background: white;
+}
+
+.search-box:hover > .search-btn {
+  color: gray;
+  transition: 0.8s;
+}
+
+.search-btn {
+  display: flex;
+  color: white;
+  width: 45px;
+
+  background: black;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-txt {
+  border: none;
+  outline: none;
+  background: none;
+
+margin-top: 20px;
+  align-items: center;
+  padding: 0;
+  transition: 0.8s;
+  display: flex;
+  color: gray;
+
+  justify-content: center;
+  font-size: 16px;
+  line-height: 45px;
+  width: 0px;
+  margin-left: 10px;
+}
+
+.search {
+  font-size: 28px;
+}
+
+#cart {
+  font-size: 30px;
+}
+
+#cart:hover {
+  color: gray;
+  transition: 0.8s;
+}
+
+#heart {
+  margin-top: 2px;
+  size: 27px;
+}
+
+#heart:hover {
+  color: gray;
+  transition: 0.8s;
+}
+
+.containerSlide {
+  padding-top: 30px;
+  width: 60%;
+  padding-left: 40px;
+  border-radius: 20px;
+  height: 800px;
+  border: 2px solid black;
+}
+
+.something {
+  width: 30%;
+  border-radius: 20px;
+  border: 2px solid black;
+  height: 800px;
+}
+
+.something1 {
+  width: 30%;
+  border: 2px solid black;
+  height: 800px;
+}
+.placer {
+  padding-top: 100px;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.placer1 {
+  padding-top: 50px;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.horizont {
+  border: 2px solid black;
+  height: 200px;
+  margin-top: 40px;
+  width: 92%;
+  border-radius: 20px;
+  margin-left: 4%;
+}
+
+.imgProductPage {
+  margin-top: 200px;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*///////////////////////////////////////////////*/
+
+.nameCenter {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.iconsPriceSize {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding-top: 50px;
+  gap: 0.7em;
+}
+
+.bordPriceSize {
+  display: flex;
+  align-items: center;
+  width: 47%;
+  height: 70px;
+  justify-content: center;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+.sixItems {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+
+  gap: 0.7em;
+
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.borderSix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 70px;
+  border-radius: 50px;
+
+  border: 2px solid black;
+}
+
+#tableAppear {
+
+  width: 30%;
+  height: 70px;
+
+  border-radius: 50px;
+}
+
+#divTable{
+  display: none;
+
+}
+
+#tableProd {
+  border: 1px solid black;
+  width: 96%;
+  margin: 10px;
+  height: 40%;
+
+}
+
+#filter {
+  padding-left: 10px;
+}
+
+svg {
+  cursor: pointer;
+}
+
+/* CARUSELKA */
